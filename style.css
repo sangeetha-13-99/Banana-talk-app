@@ -1,0 +1,93 @@
+.app-container {
+  background-color: rgba(202, 202, 121, 0.13);
+}
+
+.section-heading {
+  position: fixed;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: yellow;
+  width: 100%;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-heading h2 {
+  font-weight: bold;
+}
+
+.section-main {
+  padding: 10rem 0;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.section-main #textarea-field {
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  height: 120px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+.section-main .btn-translate {
+  border: none;
+  outline: none;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: yellow;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.section-main .btn-translate:hover {
+  background-color: white;
+}
+
+.section-main .text-msg {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Jost', sans-serif;
+}
+
+.section-main .server-error-msg {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  color: red;
+  padding: 10px;
+}
+
+.section-main .output-field {
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 150px;
+}
+
+.section-footer {
+  position: fixed;
+  bottom: 0;
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: yellow;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-footer h2 {
+  padding: 10px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
