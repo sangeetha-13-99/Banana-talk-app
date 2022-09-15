@@ -1,6 +1,10 @@
 .app-container{
-    // height:100vh;
     background-color: rgba(202, 202, 121, 0.13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 .section-heading{
@@ -19,7 +23,7 @@
 }
 
 .section-main{
-    padding:10rem 0;
+    padding:8rem 0 0 0;
     font-family: 'Patrick Hand', cursive;
     #textarea-field{
         background: none;
@@ -69,8 +73,6 @@
 }
 
 .section-footer{
-    position: fixed;
-    bottom: 0;
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     border-top-left-radius:30px ;
